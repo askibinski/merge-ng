@@ -8,6 +8,7 @@ var mergeApp = angular.module("mergeApp",
 ).
 config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
+  // @TODO dynamically populate this with Drupal node paths
   $routeProvider.
     when("/", {templateUrl: "app/partials/front.html", controller: "frontController"}).
     when("/node/:id", {templateUrl: "app/partials/node.html", controller: "nodeController"}).
@@ -17,7 +18,7 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
     $locationProvider.html5Mode(true);
 }]);
 
-// @TODO where should this go? - also services.js?
+// @TODO this probably also belongs in services
 var model = {
   nid: 123, // init values
   body: 'Lorem Ipsum',
