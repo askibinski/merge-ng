@@ -1,0 +1,29 @@
+{
+  "name": "merge-ng",
+  "version": "1.0.0",
+  "description": "Merge AngularJS App",
+  "main": "index.html",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-animate": "^1.4.8",
+    "angular-sanitize": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "angular-touch": "^1.4.8",
+    "bootstrap": "^3.3.6",
+    "angular-mocks": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/askibinski/merge-ng.git"
+  },
+  "author": "Albert Skibinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/askibinski/merge-ng/issues"
+  },
+  "homepage": "https://github.com/askibinski/merge-ng"
+}
